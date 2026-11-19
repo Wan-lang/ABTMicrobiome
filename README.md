@@ -14,7 +14,7 @@ It models pairwise "environmental difference × community distance" data with cr
 
 ```r
 # From GitHub
-remotes::install_github("your-username/ABTMicrobiome")
+remotes::install_github("Wan-lang/ABTMicrobiome")
 ```
 
 **Dependencies:** `ggplot2`, `gbm`, `vegan`, `ape`, `GUniFrac`, `rlang`.
