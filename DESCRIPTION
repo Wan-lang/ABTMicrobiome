@@ -1,0 +1,36 @@
+Package: ABTMicrobiome
+Type: Package
+Title: Aggregated Boosted Trees for Microbiome-Environment Association
+Version: 0.1.0
+Authors@R: 
+    person("Xiaoyu", "Wang", email = "xiaoyuwang515@gmail.com",
+           role = c("aut", "cre"))
+Description: A toolkit that aggregates boosted regression trees (ABT) to
+    model the relationship between environmental variables and microbial
+    community dissimilarities. Provides distance matrix computation for
+    OTU/ASV tables (Bray-Curtis, Jaccard) and phylogenetic trees
+    (weighted/unweighted UniFrac), pairwise environmental differences,
+    cross-validated gradient boosting with tree-count selection, and
+    diagnostic visualisations (variable importance, CV error, partial
+    dependence, interaction strength).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Depends:
+    R (>= 4.0)
+Imports:
+    stats,
+    utils,
+    ggplot2,
+    gbm,
+    vegan,
+    ape,
+    GUniFrac,
+	rlang
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr
