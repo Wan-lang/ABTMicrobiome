@@ -80,7 +80,6 @@ plot_interaction(fit)                                  # pairwise interaction he
 ```r
 bar <- read.csv(system.file("extdata", "barramundi.csv", package = "ABTMicrobiome"),
                 check.names = FALSE)
-bar$Fresh <- as.factor(bar$Fresh)
 
 fit_bin <- ABT(Fresh ~ Sr + Ba + Mn + Mg + Fe + Zn + Na + K + P + S,
                data = bar, distribution = "bernoulli",
