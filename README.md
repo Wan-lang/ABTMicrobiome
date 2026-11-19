@@ -2,9 +2,6 @@
 
 **Aggregated Boosted Trees for Microbiome–Environment Association**
 
-[![R-CMD-check](https://github.com/your-username/ABTMicrobiome/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/your-username/ABTMicrobiome/actions)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 `ABTMicrobiome` combines **Aggregated Boosted Trees (ABT)** with **microbial community distance analysis** to answer a central question:
 
 > **To what extent, and in what nonlinear ways, do environmental factors drive microbial community dissimilarity?**
