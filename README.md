@@ -83,7 +83,7 @@ bar <- read.csv(system.file("extdata", "barramundi.csv", package = "ABTMicrobiom
 
 fit_bin <- ABT(Fresh ~ Sr + Ba + Mn + Mg + Fe + Zn + Na + K + P + S,
                data = bar, distribution = "bernoulli",
-               n.trees = 100, cv.folds = 5)
+               n.trees = 500, cv.folds = 5)
 
 pr <- predict(fit_bin, newdata = bar, type = "response")
 ```
