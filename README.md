@@ -140,7 +140,7 @@ If you use this package in your research, please cite:
   author  = {Wang, Xiaoyu},
   title   = {ABTMicrobiome: Aggregated Boosted Trees for Microbiome-Environment Association},
   year    = {2025},
-  url     = {https://github.com/your-username/ABTMicrobiome}
+  url     = {https://github.com/Wan-lang/ABTMicrobiome}
 }
 ```
 
